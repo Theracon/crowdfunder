@@ -90,7 +90,7 @@ Follow these instructions to get set up locally.
    ```sh
    yarn
    ```
-5. Enter your API & wallet KEYS in your `.env` file
+5. Enter your API & wallet KEYS and other variables in your `.env` file
 
    ```sh
 
@@ -98,6 +98,8 @@ Follow these instructions to get set up locally.
    RINKEBY_PRIVATE_KEY="ENTER YOUR PRIVATE KEY"
    ETHERSCAN_API_KEY="ENTER YOUR ETHERSCAN API KEY"
    COINMARKETCAP_API_KEY="ENTER YOUR COINMARKETCAP API KEY"
+   REPORT_GAS_ENABLED="SOME VALUE"
+   REPORT_GAS_COLORED="SOME VALUE"
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
